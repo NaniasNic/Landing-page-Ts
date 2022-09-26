@@ -1,9 +1,13 @@
 import './styles/main.css';
 
+import { NavBar } from './components/NavBar';
+import { Form } from './components/Form';
+
 function App() {
   return (
-    <div className="">
-     <h1>teste</h1>
+    <div>
+      <NavBar />
+      <Form/>
     </div>
   )
 }
